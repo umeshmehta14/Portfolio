@@ -84,7 +84,7 @@ hr {
 }
 
 .lnb {
-    text-align: right;
+    text-align: center;
 }
 
 /* header  */
@@ -125,11 +125,15 @@ hr {
 }
 
 .ow-section{
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
     padding: 2rem;
     background-color: rgba(163, 163, 163, 0.489);
     border-radius: 90px;
+}
+
+.ow-section h1{
+    text-align: center;
 }
 
 .f-list{
