@@ -6,6 +6,10 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 
+:root{
+    --primary-color: #8b5cf6;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -21,6 +25,24 @@ body{
     margin: auto;
 }
 
-.container-fluid{
+/* Link  */
+.link{
+    text-decoration: none;
+    padding: 4px 8px;
     
+}
+.primary-link{
+    background-color: var(--primary-color);
+    color: white;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.secondary-link{
+    /* background-color: var(--primary-color); */
+    color: black;
+    margin: auto;
+    border: 1px solid blue;
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
