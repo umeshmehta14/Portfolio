@@ -6,43 +6,138 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 
-:root{
+:root {
     --primary-color: #8b5cf6;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
 /* container */
 
-.container{
+.container {
     padding-left: 1rem;
 }
-.container-center{
+
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
 /* Link  */
-.link{
+.link {
     text-decoration: none;
     padding: 4px 8px;
-    
+
 }
-.primary-link{
+
+.primary-link {
     background-color: var(--primary-color);
     color: white;
     margin: auto;
     padding: 0.5rem;
     border-radius: 1rem;
 }
-.secondary-link{
+
+.secondary-link {
     /* background-color: var(--primary-color); */
     color: black;
     margin: auto;
     border: 1px solid blue;
     padding: 0.5rem;
     border-radius: 1rem;
+}
+
+hr {
+    margin: 1rem 0rem;
+}
+
+/* list  */
+
+.nb {
+    list-style: none;
+}
+
+.list-i {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color: rgb(179, 133, 179);
+    color: azure;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navbrand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation li a {
+    color: aliceblue;
+}
+
+.lnb {
+    text-align: right;
+}
+
+/* header  */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-head {
+    font-size: 4rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+    color: grey;
+    text-align: center;
+}
+
+.hero-s {
+    color: blue;
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+/* section  */
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+.ow-section{
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(163, 163, 163, 0.489);
+    border-radius: 90px;
+}
+
+.f-list{
+    list-style: none;
+}
+
+.footer-head{
+    background-color: rgba(147, 127, 186, 0.546);
+    margin: 2rem;
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
 }

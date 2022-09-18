@@ -41,7 +41,8 @@
  <h2>List</h2>
 
  <h3>Orederd list</h3>
- <ol>
+ <p>this is none bullet</p>
+ <ol class="nb">
     <li>This is one</li>
     <li>This is two</li>
     <li>This is three</li>
@@ -49,10 +50,11 @@
  <div>
 
     <h3>Unordered list</h3>
+    <p>this is inline list</p>
     <ul>
-        <li>1 hello</li>
-        <li>2 hello</li>
-        <li>3 hello</li>
+        <li class="list-i">1 hello</li>
+        <li class="list-i">2 hello</li>
+        <li class="list-i">3 hello</li>
     </ul>
 
     <h3>Reverse ordered list</h3>
@@ -64,16 +66,16 @@
 
     <hr>
     <h2>NAV</h2>
-    <nav>
-        <div>IAmSir</div>
-        <ul>
-        <li>
-            <a href="/">home</a>
+    <nav class="navigation">
+        <div class="navbrand">IAmSir</div>
+        <ul class="lnb nav-pills">
+        <li class="list-i">
+            <a class="link link-active" href="/">home</a>
         </li>
-        <li>
+        <li class="list-i">
             <a href="/">About</a>
         </li>
-        <li>
+        <li class="list-i">
             <a href="/">contact</a>
         </li>
     </ul>
@@ -81,25 +83,35 @@
 
     <hr>
     <h2>Header</h2>
-    <header>
-        <img src="REACT-JS-KOCHI.png" alt="not is this" height="400px" width="400px"/>
-        <h2>heading in header</h2>
+    <header class="hero">
+        <img class="hero-img" src="REACT-JS-KOCHI.png" alt="not is this" height="400px" width="400px"/>
+        <h2 class="hero-head">Umesh the <span class="hero-s">Web developer</span></h2>
     </header>
 
     <hr>
     <h2>Section</h2>
     <h2>Fluid section</h2>
-    <section>
-        <p>This is inside section</p>
+    <section class="section">
+        <div class="container-center">
+        <h1>This is white section</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nobis autem vel dolorem culpa reprehenderit sapiente blanditiis consequatur libero ex. Modi ex fuga odit.</p>
+    </div>
+    </section>
+    <section class="ow-section">
+        <h1>off white section</h1>
+        <p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nobis autem vel dolorem culpa reprehenderit sapiente blanditiis consequatur libero ex. Modi ex fuga odit.</p></p>
     </section>
     <hr> 
-    <footer>
-        <h3>This is footer</h3>
-        <ul>
-            <li>ig</li>
-            <li>fb</li>
-            <li>tw</li>
+    <footer class="footer">
+        <h1 >Footer</h1>
+        <div class="footer-head">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nostrum cumque vero.</p>
+        <ul class="f-list">
+            <li  class="list-i"><a class="link" href="/">ig</a></li>
+            <li class="list-i"><a class="link" href="/">fb</a></li>
+            <li class="list-i"><a class="link" href="/">tw</a></li>
         </ul>
+    </div>
     </footer>
     
 
