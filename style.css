@@ -41,6 +41,8 @@ body {
     border-radius: 1rem;
 }
 
+
+
 .secondary-link {
     /* background-color: var(--primary-color); */
     color: black;
@@ -127,9 +129,10 @@ hr {
 .ow-section{
     /* text-align: center; */
     margin: auto;
-    padding: 2rem;
     background-color: rgba(163, 163, 163, 0.489);
-    border-radius: 90px;
+    border-radius:1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .ow-section h1{
