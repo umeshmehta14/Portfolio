@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 
 :root {
-    --primary-color: #8b5cf6;
+    --primary-color: #000000;
 }
 
 body {
@@ -33,6 +33,17 @@ body {
 
 }
 
+.primary-link:hover{
+    box-shadow: 1px 2px 20px 3px rgb(87, 113, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.secondary-link:hover{
+    box-shadow: 1px 2px 20px 3px rgb(87, 113, 255);
+    background-color: black;
+    color: white;
+}
+
 .primary-link {
     background-color: var(--primary-color);
     color: white;
@@ -44,10 +55,10 @@ body {
 
 
 .secondary-link {
-    /* background-color: var(--primary-color); */
+    background-color: white;
     color: black;
     margin: auto;
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 0, 0);
     padding: 0.5rem;
     border-radius: 1rem;
 }
@@ -70,10 +81,11 @@ hr {
 /* navigation */
 
 .navigation {
-    background-color: rgb(179, 133, 179);
+    background-color: rgb(0, 0, 0);
     color: azure;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navbrand {
@@ -103,14 +115,14 @@ hr {
 
 .hero-head {
     font-size: 4rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-weight: bolder;
     color: grey;
     text-align: center;
 }
 
 .hero-s {
-    color: blue;
+    color: rgb(0, 0, 0);
     font-style: italic;
     font-weight: 900;
 }
@@ -118,22 +130,36 @@ hr {
 
 /* section  */
 .section{
-    padding: 2rem;
+    margin: auto;
+    border: 2px solid black;
+    border-radius:1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+}
+
+.section:hover{
+    box-shadow: 1px 2px 20px 3px black;
 }
 
 .section h1 {
     text-align: center;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .ow-section{
     /* text-align: center; */
     margin: auto;
-    background-color: rgba(163, 163, 163, 0.489);
+    background-color: rgba(115, 113, 148, 0.489);
     border-radius:1rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     padding: 1rem 1rem;
+}
+
+.ow-section:hover{
+    box-shadow: 1px 2px 20px 3px black;
 }
 
 .ow-section h1{
@@ -145,13 +171,21 @@ hr {
 }
 
 .footer-head{
-    background-color: rgba(147, 127, 186, 0.546);
-    padding: 2rem 1rem;
+    background-color: rgba(45, 38, 59, 0.546);
+    padding: 1rem 1rem;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     font-size: larger;
     text-align: center;
 }
 
 .f-list .list-i .link{
     font-size: medium;
+    text-align: center;
+    color: azure;
+}
+
+.f-image{
+    height: 1.5rem;
+    width: auto;
 }
