@@ -142,16 +142,25 @@ hr {
     margin-bottom: 2rem;
     margin-top: 2rem;
     padding: 1rem 1rem;
+
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .section:hover{
     box-shadow: 1px 1px 5px 2px rgb(0, 0, 0);
     background-color: azure;
+
+    font-family: 'Roboto', sans-serif;
+
 }
 .ow-section:hover{
     box-shadow: 1px 1px 5px 2px rgb(0, 0, 0);
     border: 2px solid black;
     background-color: rgba(82, 82, 82, 0.537);
+
+    font-family: 'Roboto Mono', monospace;
+
 }
 
 .section h1 {
@@ -167,6 +176,7 @@ hr {
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     padding: 1rem 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .ow-section h1{
@@ -195,4 +205,8 @@ hr {
     width: auto;
     border-radius: 5px;
     filter: invert(100%);
+
 }
+
+}
+
